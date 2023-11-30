@@ -16,13 +16,17 @@ import imageio
 matplotlib.rcParams.update({'font.size': 24})
 
 plt_colors = []
-plt_colors.append([0.8500, 0.3250, 0.0980])  # orange
-plt_colors.append([0.0, 0.4470, 0.7410])  # blue
-plt_colors.append([0.4660, 0.6740, 0.1880])  # green
-plt_colors.append([0.4940, 0.1840, 0.5560])  # purple
-plt_colors.append([0.9290, 0.6940, 0.1250])  # yellow
-plt_colors.append([0.3010, 0.7450, 0.9330])  # cyan
-plt_colors.append([0.6350, 0.0780, 0.1840])  # chocolate
+plt_colors.append([0.8500, 0.3250, 0.0980])  # orange0
+plt_colors.append([0.0, 0.4470, 0.7410])  # blue1
+plt_colors.append([0.4660, 0.6740, 0.1880])  # green2
+plt_colors.append([0.4940, 0.1840, 0.5560])  # purple3
+plt_colors.append([0.9290, 0.6940, 0.1250])  # yellow4
+plt_colors.append([0.3010, 0.7450, 0.9330])  # cyan5
+plt_colors.append([0.6350, 0.0780, 0.1840])  # chocolate6
+
+plt_colors.append([0.8500, 0, 0])  # red7
+plt_colors.append([0.0, 0.4470, 0.])  # blue8
+plt_colors.append([0, 0, 0.8])  # green9
 
 def get_plot_save_dir(plot_save_dir, plot_policy_name, agents=None):
     if plot_save_dir is None:
@@ -179,6 +183,8 @@ def draw_agents(agents, circles_along_traj, ax, last_index=-1):
             plt.plot(agent.global_state_history[0, 3],
                      agent.global_state_history[0, 4],
                      color=plt_color, marker='*', markersize=20)
+            #%kkl
+            plt.plot(agent.goal_global_frame[0],agent.goal_global_frame[1],color=plt_color,marker='o', markersize=20)
 
             # Display circle at agent pos every circle_spacing (nom 1.5 sec)
             circle_spacing = 0.4
@@ -242,6 +248,7 @@ def draw_agents(agents, circles_along_traj, ax, last_index=-1):
             plt.scatter(agent.global_state_history[:agent.step_num, 1],
                      agent.global_state_history[:agent.step_num, 2],
                      color=colors)
+            plt.plot(agent.goal_global_frame[0],agent.goal_global_frame[1],color=plt_color,marker='o', markersize=20)
 
             # Also display circle at agent position at end of trajectory
             ind = agent.step_num + last_index

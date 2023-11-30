@@ -4,7 +4,8 @@ import numpy as np
 from gym_collision_avoidance.envs import Config
 from gym_collision_avoidance.envs.wrappers import FlattenDictWrapper, MultiagentFlattenDictWrapper, MultiagentDummyVecEnv, MultiagentDictToMultiagentArrayWrapper
 from baselines.common.vec_env.dummy_vec_env import DummyVecEnv
-
+import csv
+from datetime import datetime
 def create_env():
     import tensorflow as tf
     tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
@@ -42,12 +43,26 @@ def create_env():
     one_env = unwrapped_envs[0]
     return env, one_env
 
-def run_episode(env, one_env):
+def run_episode(env, one_env,method_name):
     total_reward = 0
     step = 0
     done = False
+    message={}
+    timestamp = str(len(one_env.agents))+method_name+ datetime.now().strftime("%Y%m%d%H%M%S")
+    file_name = f'example_{timestamp}.csv'
+    with open(file_name, 'a', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=' ')
     while not done:
-        obs, rew, done, info = env.step([None])
+        #step(self, actions,message, dt=None):
+
+        obs, rew, done, info = env.step([None,message])
+        res=[]
+        for ag in range(len(one_env.agents)):
+            res.append(one_env.agents[ag].pos_global_frame[0])
+            res.append(one_env.agents[ag].pos_global_frame[1])
+        with open(file_name, 'a', newline='') as csvfile:
+            csvwriter = csv.writer(csvfile, delimiter=' ')
+            csvwriter.writerow(res)
         total_reward += rew[0]
         step += 1
 
@@ -68,6 +83,8 @@ def run_episode(env, one_env):
         np.all([a.is_at_goal for a in agents])).tolist()
     any_stuck = np.array(
         np.any([not a.in_collision and not a.is_at_goal for a in agents])).tolist()
+
+
     outcome = "collision" if collision else "all_at_goal" if all_at_goal else "stuck"
     specific_episode_stats = {
         'num_agents': len(agents),
@@ -489,6 +506,10 @@ policies = {
         'policy': 'CADRL',
         'sensors': ['other_agents_states'],
         },
+        'CADRL': {
+        'policy': 'Policy',
+        'sensors': ['other_agents_states'],
+        },
     'RVO': {
         'policy': 'RVO',
         'sensors': ['other_agents_states'],
@@ -497,5 +518,14 @@ policies = {
         'policy': 'drllong',
         'checkpt_name': 'stage2.pth',
         'sensors': ['other_agents_states', 'laserscan']
+        },
+    'Policy': {
+        'policy': 'Policy',
+        'sensors': ['other_agents_states']
+        },
+        
+    'MPC': {
+        'policy': 'MPC',
+        'sensors': ['other_agents_states']
         },
     }

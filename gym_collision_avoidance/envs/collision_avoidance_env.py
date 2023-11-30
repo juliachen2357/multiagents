@@ -151,14 +151,14 @@ class CollisionAvoidanceEnv(gym.Env):
         - **info_dict** (*dict*): metadata that helps in training
 
         """
-
+        
         if dt is None:
             dt = self.dt_nominal
 
         self.episode_step_number += 1
 
         # Take action
-        self._take_action(actions, dt)
+        self._take_action(actions[0], dt,actions[1])
 
         # Collect rewards
         rewards = self._compute_rewards()
@@ -214,7 +214,7 @@ class CollisionAvoidanceEnv(gym.Env):
                 self.observation[agent][state] = np.zeros((Config.STATE_INFO_DICT[state]['size']), dtype=Config.STATE_INFO_DICT[state]['dtype'])
         return self._get_obs()
 
-    def _take_action(self, actions, dt):
+    def _take_action(self, actions, dt,message):
         """ Some agents' actions come externally through the actions arg, agents with internal policies query their policy here, 
         then each agent takes a step simultaneously.
 
@@ -245,8 +245,10 @@ class CollisionAvoidanceEnv(gym.Env):
                 all_actions[agent_index, :] = agent.policy.external_action_to_action(agent, actions[agent_index])
             else:
                 dict_obs = self.observation[agent_index]
-                all_actions[agent_index, :] = agent.policy.find_next_action(dict_obs, self.agents, agent_index)
 
+                temp= agent.policy.find_next_action(dict_obs, self.agents, agent_index,message)
+                all_actions[agent_index, :] = temp[0]
+                message[agent_index]=temp[1]
         # After all agents have selected actions, run one dynamics update
         for i, agent in enumerate(self.agents):
             agent.take_action(all_actions[i,:], dt)

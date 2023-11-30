@@ -62,10 +62,11 @@ def main():
                 np.random.seed(0)
                 prev_agents = None
                 df = pd.DataFrame()
+                method_name='AP'
                 for test_case in range(Config.NUM_TEST_CASES):
                     ##### Actually run the episode ##########
                     _ = reset_env(env, one_env, test_case_fn, test_case_args, test_case, num_agents, policies, policy, prev_agents)
-                    episode_stats, prev_agents = run_episode(env, one_env)
+                    episode_stats, prev_agents = run_episode(env, one_env,method_name)
                     df = store_stats(df, {'test_case': test_case, 'policy_id': policy}, episode_stats)
                     ########################################
                     pbar.update(1)

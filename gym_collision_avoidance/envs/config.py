@@ -19,7 +19,7 @@ class Config(object):
         self.PLT_FIG_SIZE = (10, 8)
 
         if not hasattr(self, "USE_STATIC_MAP"):
-            self.USE_STATIC_MAP = False
+            self.USE_STATIC_MAP = True
         
         ### TRAIN / PLAY / EVALUATE
         self.TRAIN_MODE           = True # Enable to see the trained agent in action (for testing)
@@ -212,14 +212,14 @@ class Formations(EvaluateConfig):
         self.SAVE_EPISODE_PLOTS = True
         self.SHOW_EPISODE_PLOTS = False
         self.ANIMATE_EPISODES = True
-        self.NEAR_GOAL_THRESHOLD = 0.2
-        self.PLT_LIMITS = [[-5, 6], [-2, 7]]
+        self.NEAR_GOAL_THRESHOLD = 0.5
+        self.PLT_LIMITS = [[-5, 10], [-5, 10]]
         self.PLT_FIG_SIZE = (10,10)
         self.PLOT_CIRCLES_ALONG_TRAJ = False
-        self.NUM_AGENTS_TO_TEST = [6]
-        self.POLICIES_TO_TEST = ['GA3C-CADRL-10']
-        self.NUM_TEST_CASES = 2
-        self.LETTERS = ['C', 'A', 'D', 'R', 'L']
+        self.NUM_AGENTS_TO_TEST = [2,10,20]
+        self.POLICIES_TO_TEST = ['MPC']
+        self.NUM_TEST_CASES = 4
+        self.LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
 class SmallTestSuite(EvaluateConfig):
     def __init__(self):
@@ -240,7 +240,7 @@ class FullTestSuite(EvaluateConfig):
         self.PLOT_CIRCLES_ALONG_TRAJ = True
 
         self.NUM_TEST_CASES = 4
-        self.NUM_AGENTS_TO_TEST = [2,3,4]
+        self.NUM_AGENTS_TO_TEST = [6]
         self.RECORD_PICKLE_FILES = False
 
         # # DRLMACA
@@ -249,7 +249,7 @@ class FullTestSuite(EvaluateConfig):
 
         # Normal
         self.POLICIES_TO_TEST = [
-            'CADRL', 'RVO', 'GA3C-CADRL-10'
+            'MPC'#, 'RVO', 'GA3C-CADRL-10'
             # 'GA3C-CADRL-4-WS-4-1', 'GA3C-CADRL-4-WS-4-2', 'GA3C-CADRL-4-WS-4-3', 'GA3C-CADRL-4-WS-4-4', 'GA3C-CADRL-4-WS-4-5',
             # 'GA3C-CADRL-4-WS-6-1', 'GA3C-CADRL-4-WS-6-2', 'GA3C-CADRL-4-WS-6-3', 'GA3C-CADRL-4-WS-6-4',
             # 'GA3C-CADRL-4-WS-8-1', 'GA3C-CADRL-4-WS-8-2', 'GA3C-CADRL-4-WS-8-3', 'GA3C-CADRL-4-WS-8-4',
@@ -271,7 +271,7 @@ class CollectRegressionDataset(EvaluateConfig):
         self.DATASET_NAME = ""
 
         # # Laserscan mode
-        # self.USE_STATIC_MAP = True
+        self.USE_STATIC_MAP = True
         # self.STATES_IN_OBS = ['is_learning', 'num_other_agents', 'dist_to_goal', 'heading_ego_frame', 'pref_speed', 'radius', 'laserscan']
         # self.DATASET_NAME = "laserscan_"
 
