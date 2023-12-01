@@ -14,11 +14,10 @@ https://github.com/iastate/multiagents/assets/95378237/933ebeae-8de9-42ce-ab21-8
 
 The colors of agents are: 
 
-| agent0|agent1|agent2|agent3|agent4|agent5| agent6|agent7| agent8|agent9|agent10|agent11|agent12|agent13|agent14|agent15| agent16|agent17|agent18|agent19| agent20|
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| -------- | -------- | -------- |
-| orange| Row 2, Cell 2 | Row 2, Cell 3 |
-| Row 3, Cell 1 | Row 3, Cell 2 | Row 3, Cell 3 |
+| agent0|agent1|agent2|agent3|agent4|agent5| agent6|agent7| agent8|agent9|agent10|agent11|agent12|agent13|agent14|agent15|agent16|agent17|agent18|agent19| agent20|
+| ------|----- |----- | ---- | ---- | ---- | ----- | ---- | ----- | ---- | ----- | ----- | ----- | ----- | ----- |------ |------ |------ | ----- | ----- | ------ | 
+| orange|blue  |----- | ---- | ---- | ---- | ----- | ---- | ----- | ---- | ----- | ----- | ----- | ----- | ----- |------ |------ |------ | ----- | ----- | ------ | 
+
 
 plt_colors.append([0.0, 0.4470, 0.7410])  # blue1
 plt_colors.append([0.4660, 0.6740, 0.1880])  # green2
