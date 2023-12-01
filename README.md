@@ -28,3 +28,10 @@ plt_colors.append([0.6350, 0.0780, 0.1840])  # chocolate6
 
 plt_colors.append([0.8500, 0, 0])  # red7
 plt_colors.append([0.0, 0.4470, 0.])  #
+| Header 1 | Header 2 | Header 3 | Header 4 |
+| -------- | -------- | -------- | -------- |
+| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 | Row 1, Cell 4 |
+| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 | Row 2, Cell 4 |
+| Row 3, Cell 1 | Row 3, Cell 2 | Row 3, Cell 3 | Row 3, Cell 4 |
+| Row 4, Cell 1 | Row 4, Cell 2 | Row 4, Cell 3 | Row 4, Cell 4 |
+| Row 5, Cell 1 | Row 5, Cell 2 | Row 5, Cell 3 | Row 5, Cell 4 |
