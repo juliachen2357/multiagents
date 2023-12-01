@@ -8,3 +8,7 @@ finally pushed the recursive module to git
         gy = agent[3]
         pref_speed = agent[4]
         radius = agent[5]
+
+
+https://github.com/iastate/multiagents/assets/95378237/933ebeae-8de9-42ce-ab21-869734815569
+
