@@ -11,9 +11,12 @@ finally pushed the recursive module to git
 
 
 
-https://github.com/iastate/multiagents/assets/95378237/79714cef-4449-430c-b7f7-65d7a7c8f6ab
 
-https://github.com/iastate/multiagents/assets/95378237/bc87a42c-3ab5-47e9-b080-a8a0b86d9f5c
+https://github.com/iastate/multiagents/assets/95378237/d655a2eb-fbb2-4c4e-9f1a-72c37022c10f
+
+
+
+
 
 
 The colors of agents are: 
