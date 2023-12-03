@@ -10,7 +10,8 @@ finally pushed the recursive module to git
         radius = agent[5]
 
 
-https://github.com/iastate/multiagents/assets/95378237/933ebeae-8de9-42ce-ab21-869734815569
+https://github.com/iastate/multiagents/assets/95378237/933ebeae-8de9-42ce-ab21-869734815569 |![legend](https://github.com/iastate/multiagents/assets/95378237/bc87a42c-3ab5-47e9-b080-a8a0b86d9f5c)
+
 
 The colors of agents are: 
 
