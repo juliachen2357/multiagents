@@ -25,7 +25,7 @@ Import the new policy in test cases, e.g., from gym_collision_avoidance.envs.pol
 This research seeks to address a fundamental question: Can enhancing agents' awareness of each other's future motions and leveraging this information for trajectory planning lead to safer and more efficient driving, ultimately reducing collisions? 
 
 We investigate how an agent's ability to perceive the plans of others influences its performance relative to agents without this capability. Furthermore, we aim to understand the cumulative impact of progressively integrating more vehicle-to-vehicle (V2V) communication among agents. By systematically increasing the prevalence of this communication feature until it is universally adopted, we analyze its effects on the overall system of systems.
-<img src=["https://user-images.githubusercontent.com/16434638/125166121-088f0e80-e192-11eb-8210-7245b1fe4f62.mp4"](https://github.com/iastate/multiagents/assets/95378237/d655a2eb-fbb2-4c4e-9f1a-72c37022c10f) width="200">
+<img src=(https://github.com/iastate/multiagents/assets/95378237/d655a2eb-fbb2-4c4e-9f1a-72c37022c10f) width="200">
 
 # Comparison between Linear Prediction and Static Prediction
 https://github.com/iastate/multiagents/assets/95378237/d655a2eb-fbb2-4c4e-9f1a-72c37022c10f
