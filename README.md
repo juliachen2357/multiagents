@@ -60,7 +60,10 @@ In our experiment, the time step (\( \Delta t \)) for each iteration is 0.1s, an
 linear prediction|static prediction |prophet|
 |![linear_predict](https://github.com/iastate/multiagents/assets/95378237/9a5df0aa-0c78-409f-b58e-589e57b6a591)|![static](https://github.com/iastate/multiagents/assets/95378237/ad508e98-4af6-4ddc-a24e-b9f666ee7e37)|![prophet](https://github.com/iastate/multiagents/assets/95378237/7ade724f-f4d6-4ee6-b5d8-d3cefda7e349)
 
+#comparison between all-prophet systems and non-prophet systems
+The distinction between all-prophet and non-prophet systems becomes evident as the former exhibit noticeably smoother and faster paths. This disparity arises not solely from the prophets' enhanced ability to predict future states but also from the transformative impact of message propagation, which serves as a negation of the anticipated paths among all participating agents.
 
+The effectiveness of prophet-driven systems is two-fold. Firstly, prophets penalize trajectories that foresee collisions with other agents, prompting a deliberate avoidance of locations already designated by fellow prophets. Secondly, with prophets explicitly laying claim to their future paths, other prophets noticed by the message and therefore gain the confidence to occupy positions in proximity to the claimed paths, especially on the side where prophets have asserted no intention to traverse. This intentional distribution of roles and responsibilities among agents contributes to the overall efficiency and fluidity of the system, showcasing the strategic advantage afforded by all-prophet systems over their non-prophet counterparts.
 
 
 ## Experiment Details
