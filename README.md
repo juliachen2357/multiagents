@@ -27,7 +27,10 @@ This research seeks to address a fundamental question: Can enhancing agents' awa
 We investigate how an agent's ability to perceive the plans of others influences its performance relative to agents without this capability. Furthermore, we aim to understand the cumulative impact of progressively integrating more vehicle-to-vehicle (V2V) communication among agents. By systematically increasing the prevalence of this communication feature until it is universally adopted, we analyze its effects on the overall system of systems.
 
 
-https://github.com/iastate/multiagents/assets/95378237/e82ed845-42e9-4eeb-9a05-4ad2933754a3
+https://github.com/iastate/multiagents/assets/95378237/b43d0a8d-bfbf-4698-ab5a-b95faeb730e5
+
+
+
 
 
 # Comparison between Linear Prediction and Static Prediction
