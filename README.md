@@ -19,7 +19,7 @@ Add the new policy to ./gym_collision_avoidance/envs/policies.
 
 Import the new policy in test cases, e.g., from gym_collision_avoidance.envs.policies.MPC import MPC.
 # Decentralized Multi-agent collision avoidance control algorithm in MPC with message communication
--. This research seeks to address a fundamental question: Can enhancing agents' awareness of each other's future motions and leveraging this information for trajectory planning lead to safer and more efficient driving, ultimately reducing collisions? 
+## This research seeks to address a fundamental question: Can enhancing agents' awareness of each other's future motions and leveraging this information for trajectory planning lead to safer and more efficient driving, ultimately reducing collisions? 
 
 In exploring this, 
 three experiments were con
