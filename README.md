@@ -9,6 +9,10 @@ finally pushed the recursive module to git
         pref_speed = agent[4]
         radius = agent[5]
 -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 This code is an extension of the gym-collision-avoidance project. To install the original gym environment, please refer to the documentation.
 
 To incorporate a new policy, follow these steps:
