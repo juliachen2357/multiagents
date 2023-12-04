@@ -9,6 +9,9 @@ finally pushed the recursive module to git
         pref_speed = agent[4]
         radius = agent[5]
 -->
+User
+help me polish this do not make it much longer:This code is extended from https://github.com/mit-acl/gym-collision-avoidance.
+Please see [the documentation](https://gym-collision-avoidance.readthedocs.io/en/latest/) to install the original gym environment.
 
 This research seeks to address a fundamental question: Can enhancing agents' awareness of each other's future motions and leveraging this information for trajectory planning lead to safer and more efficient driving, ultimately reducing collisions?
 
