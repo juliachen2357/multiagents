@@ -24,35 +24,36 @@ This research seeks to address a fundamental question: Can enhancing agents' awa
 We investigate how an agent's ability to perceive the plans of others influences its performance relative to agents without this capability. Furthermore, we aim to understand the cumulative impact of progressively integrating more vehicle-to-vehicle (V2V) communication among agents. By systematically increasing the prevalence of this communication feature until it is universally adopted, we analyze its effects on the overall system of systems.
 
 https://github.com/iastate/multiagents/assets/95378237/d655a2eb-fbb2-4c4e-9f1a-72c37022c10f
+# Comparison between Linear Prediction and Static Prediction
 
-\subsection{Comparison between linear prediction and static prediction}
-In this experiment, we tested two commonly used strategies for vehicle path prediction, and found although widely used in practice, applying linear prediction method to every agent in a multi-agent system can lead to catastrophic outcomes.
+In this experiment, we tested two commonly used strategies for vehicle path prediction. We found that although widely used in practice, applying the linear prediction method to every agent in a multi-agent system can lead to catastrophic outcomes.
 
-1) Taking the agent as static: \( \vec x(t_0 + \Delta t) = \vec x(t_0) \)
+1. **Taking the agent as static:** \( \vec x(t_0 + \Delta t) = \vec x(t_0) \)
 
-2) Assuming the agent is continuing its current behavior and using linear prediction: \( \vec x(t_0+\Delta t) = \vec x(t_0) + \vec{v}(0) \cdot \Delta t \), especially for a short time horizon. 
+2. **Assuming the agent is continuing its current behavior and using linear prediction:** \( \vec x(t_0+\Delta t) = \vec x(t_0) + \vec{v}(0) \cdot \Delta t \), especially for a short time horizon.
 
-In our experiment, the time step (\( \Delta t \)) for each iteration is 0.1s, and the prediction horizon is 10, so the total prediction horizon is 1s. 
+In our experiment, the time step (\( \Delta t \)) for each iteration is 0.1s, and the prediction horizon is 10, so the total prediction horizon is 1s.
 
-\begin{table}[h]
-  \centering
-  \begin{tabular}{|c|c|c|}
-    \hline
-    static / linear prediction & 2 agents & 3 agents \\
-    \hline
-    1 m/s &  0\%/60.2\% & 0.316\%/66.04\% \\
-    \hline
-    2 m/s & 0.802\%/80.56\% & 0\%/88.13\% \\
-    \hline
-    3 m/s & 6.012\%/83.57\% & 2.605\%/100\% \\
-    \hline
-    4 m/s & 36.673\%/83.17\% & 51.904\%/100\% \\
-    \hline
-  \end{tabular}
-  \caption{Table of Collision Percentage}
-  \label{tab:simple-table}
-\end{table}
+## Table of Collision Percentage
 
-A typical reason for linear prediction multiagent systems is symmetrically  to oscillation and diverge. 
+| static / linear prediction | 2 agents | 3 agents |
+|-----------------------------|----------|----------|
+| 1 m/s                        | 0%/60.2% | 0.316%/66.04% |
+| 2 m/s                        | 0.802%/80.56% | 0%/88.13% |
+| 3 m/s                        | 6.012%/83.57% | 2.605%/100% |
+| 4 m/s                        | 36.673%/83.17% | 51.904%/100% |
+
+## Experiment Details
+
+Include any additional details about the experiment, methodology, or results here.
+
+## Usage
+
+Provide instructions or code snippets for using any associated software or scripts.
+
+## License
+
+Specify the license under which your experiment or code is distributed.
+ion multiagent systems is symmetrically  to oscillation and diverge. 
 \end{document}
  
