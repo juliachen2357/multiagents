@@ -11,11 +11,10 @@ finally pushed the recursive module to git
         radius = agent[5]
 -->
 
+![output_video_resized](https://github.com/iastate/multiagents/assets/95378237/c56460f5-3a3a-454d-8f49-8daa4c6ace8a)
 
 
 
-
-![output_video_resized](https://github.com/iastate/multiagents/assets/95378237/72f16949-fa75-4581-b44c-fa6dc3925de8)
 
 
 This code is an extension of the gym-collision-avoidance project. To install the original gym environment, please refer to the documentation.
