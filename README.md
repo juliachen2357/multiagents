@@ -58,7 +58,10 @@ In our experiment, the time step (\( \Delta t \)) for each iteration is 0.1s, an
 | 3 m/s                        | 6.012%/83.57% | 2.605%/100% |
 | 4 m/s                        | 36.673%/83.17% | 51.904%/100% |
 linear prediction|static prediction |prophet|
-|![oscilation](https://github.com/iastate/multiagents/assets/95378237/93cf2c7c-3984-4522-bc37-b5f9b669eed9)|![static](https://github.com/iastate/multiagents/assets/95378237/6a7b1103-9afa-49c2-9ea7-b8af3a704929)|![prophet](https://github.com/iastate/multiagents/assets/95378237/b7a2a12e-b19a-445a-a89c-5b898f50810d)
+|![linear_predict](https://github.com/iastate/multiagents/assets/95378237/9a5df0aa-0c78-409f-b58e-589e57b6a591)|![static](https://github.com/iastate/multiagents/assets/95378237/ad508e98-4af6-4ddc-a24e-b9f666ee7e37)|![prophet](https://github.com/iastate/multiagents/assets/95378237/7ade724f-f4d6-4ee6-b5d8-d3cefda7e349)
+
+
+
 
 ## Experiment Details
 linear prediction 
