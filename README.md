@@ -9,10 +9,16 @@ finally pushed the recursive module to git
         pref_speed = agent[4]
         radius = agent[5]
 -->
-User
-help me polish this do not make it much longer:This code is extended from https://github.com/mit-acl/gym-collision-avoidance.
-Please see [the documentation](https://gym-collision-avoidance.readthedocs.io/en/latest/) to install the original gym environment.
+This code is an extension of the gym-collision-avoidance project. To install the original gym environment, please refer to the documentation.
 
+To incorporate a new policy, follow these steps:
+
+Add the name, sensor type, and other information of the new policy in /gym-collision-avoidance/gym_collision_avoidance/experiments/src/env_utils.py.
+
+Add the new policy to ./gym_collision_avoidance/envs/policies.
+
+Import the new policy in test cases, e.g., from gym_collision_avoidance.envs.policies.MPC import MPC.
+# a Decentralized Multi-agent collision avoidance control algorithm in MPC with message communication
 This research seeks to address a fundamental question: Can enhancing agents' awareness of each other's future motions and leveraging this information for trajectory planning lead to safer and more efficient driving, ultimately reducing collisions?
 
 In exploring this, we investigate how an agent's ability to perceive the plans of others influences its performance relative to agents without this capability.
