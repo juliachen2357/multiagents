@@ -71,6 +71,7 @@ linear prediction
 Include any additional details about the experiment, methodology, or results here.
 
 ## Usage
+![Figure 2023-12-04 060204](https://github.com/iastate/multiagents/assets/95378237/92a4803e-f8de-4539-b4ca-e52255b02f79)
 
 Provide instructions or code snippets for using any associated software or scripts.
 
