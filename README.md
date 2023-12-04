@@ -15,6 +15,7 @@ finally pushed the recursive module to git
 
 
 
+![output_video_resized](https://github.com/iastate/multiagents/assets/95378237/72f16949-fa75-4581-b44c-fa6dc3925de8)
 
 
 This code is an extension of the gym-collision-avoidance project. To install the original gym environment, please refer to the documentation.
