@@ -11,7 +11,6 @@ finally pushed the recursive module to git
         radius = agent[5]
 -->
 
-![output_video_resized](https://github.com/iastate/multiagents/assets/95378237/c56460f5-3a3a-454d-8f49-8daa4c6ace8a)
 
 
 
@@ -35,7 +34,7 @@ We investigate how an agent's ability to perceive the plans of others influences
 
 
 
-https://github.com/iastate/multiagents/assets/95378237/bad4c425-9fc2-4998-8e88-203d10585d1b
+![output_video_resized](https://github.com/iastate/multiagents/assets/95378237/c56460f5-3a3a-454d-8f49-8daa4c6ace8a)
 
 
 
