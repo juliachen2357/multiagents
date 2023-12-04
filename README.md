@@ -36,8 +36,6 @@ In this experiment, we tested two commonly used strategies for vehicle path pred
 
 In our experiment, the time step (\( \Delta t \)) for each iteration is 0.1s, and the prediction horizon is 10, so the total prediction horizon is 1s. 
 
-
-
 \begin{table}[h]
   \centering
   \begin{tabular}{|c|c|c|}
