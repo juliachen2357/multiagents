@@ -33,11 +33,8 @@ In this experiment, we tested two commonly used strategies for vehicle path pred
 
 1. **Taking the agent as static:**
 $$\mathbf{x}(t_0 + \Delta t) = \mathbf{x}(t_0)$$
-
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
-
-3. **Assuming the agent is continuing its current behavior and using linear prediction:** \( \vec x(t_0+\Delta t) = \vec x(t_0) + \vec{v}(0) \cdot \Delta t \), especially for a short time horizon.
+3. **Assuming the agent is continuing its current behavior and using linear prediction:**
+$$\( \vec x(t_0+\Delta t) = \vec x(t_0) + \vec{v}(0) \cdot \Delta t \)$$, especially for a short time horizon.
 
 In our experiment, the time step (\( \Delta t \)) for each iteration is 0.1s, and the prediction horizon is 10, so the total prediction horizon is 1s.
 
