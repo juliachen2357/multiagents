@@ -16,7 +16,7 @@ finally pushed the recursive module to git
 
 
 
-This code is an extension of the gym-collision-avoidance project. To install the original gym environment, please refer to the documentation.
+This code is an extension of the gym-collision-avoidance project. To install the original gym environment, please refer to the documentation https://github.com/mit-acl/gym-collision-avoidance.
 
 To incorporate a new policy, follow these steps:
 
