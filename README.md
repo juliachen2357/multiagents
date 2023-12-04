@@ -31,10 +31,11 @@ This research seeks to address a fundamental question: Can enhancing agents' awa
 
 We investigate how an agent's ability to perceive the plans of others influences its performance relative to agents without this capability. Furthermore, we aim to understand the cumulative impact of progressively integrating more vehicle-to-vehicle (V2V) communication among agents. By systematically increasing the prevalence of this communication feature until it is universally adopted, we analyze its effects on the overall system of systems.
 
-https://github.com/iastate/multiagents/assets/95378237/9ea3753a-47f5-4c0a-929c-b5f67b5826b5
+]
 
 
 
+https://github.com/iastate/multiagents/assets/95378237/bad4c425-9fc2-4998-8e88-203d10585d1b
 
 
 
