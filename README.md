@@ -12,6 +12,10 @@ finally pushed the recursive module to git
 -->
 
 
+https://github.com/iastate/multiagents/assets/95378237/fc104309-7f7d-42e6-8b1d-2cf0a85a9294
+
+
+
 This code is an extension of the gym-collision-avoidance project. To install the original gym environment, please refer to the documentation.
 
 To incorporate a new policy, follow these steps:
@@ -26,8 +30,6 @@ This research seeks to address a fundamental question: Can enhancing agents' awa
 
 We investigate how an agent's ability to perceive the plans of others influences its performance relative to agents without this capability. Furthermore, we aim to understand the cumulative impact of progressively integrating more vehicle-to-vehicle (V2V) communication among agents. By systematically increasing the prevalence of this communication feature until it is universally adopted, we analyze its effects on the overall system of systems.
 
-
-https://github.com/iastate/multiagents/assets/95378237/b43d0a8d-bfbf-4698-ab5a-b95faeb730e5
 
 
 
