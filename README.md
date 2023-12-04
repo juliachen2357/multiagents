@@ -1,6 +1,4 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+
 <!--
 I finally solved the problem. I did cd rl_gym../gym_collision... and then  git push --set-upstream --force origin main
 finally pushed the recursive module to git
@@ -34,9 +32,8 @@ https://github.com/iastate/multiagents/assets/95378237/d655a2eb-fbb2-4c4e-9f1a-7
 In this experiment, we tested two commonly used strategies for vehicle path prediction. We found that although widely used in practice, applying the linear prediction method to every agent in a multi-agent system can lead to catastrophic outcomes.
 
 1. **Taking the agent as static:** 
-$$
-\mathbf{x}(t_0 + \Delta t) = \mathbf{x}(t_0)
-$$
+![Equation](https://latex.codecogs.com/svg.latex?\mathbf{x}(t_0%20+%20\Delta%20t)%20=%20\mathbf{x}(t_0))
+
 
 2. **Assuming the agent is continuing its current behavior and using linear prediction:** \( \vec x(t_0+\Delta t) = \vec x(t_0) + \vec{v}(0) \cdot \Delta t \), especially for a short time horizon.
 
