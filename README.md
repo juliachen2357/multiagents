@@ -69,10 +69,9 @@ There is also a surprising result for prophet vs non-prophet
 We currently only have results for two agents tested on the 500 datasets, but the trend is very significant and eye-catching. If the agents are all-prophet or non-prophet, the results are basically the same but significantly worse than one-prophet one non-prophet. The mixed system got significantly better results, both in collision rate, smoothness of paths, and 
 speed of passage. I think it is similar to a team needs different member MBTI characters. A team with mixed characters works better. The Ap and NP groups all oscillated because of symmetry, and the mixed system passed smoothly.This experiment showcased the most dramatic and characteristic display of the agent's behavioral traits. While other experiments follow similar principles
 |Nonprohet|All-prophet|1Prophet(0nonpro,1pro)
-|![140_MPC_2agents0s1](https://github.com/iastate/multiagents/assets/95378237/e1f1f8a2-c7b8-46a4-ae71-dd1094203769)|
-![140_MPC_2agents1s1](https://github.com/iastate/multiagents/assets/95378237/b2df1573-8350-4dba-8eda-900bac5e8189)|
-![140_MPC_2agents2s2](https://github.com/iastate/multiagents/assets/95378237/4f06b7e6-6718-49dc-8b26-c3a5a0578430)
-
+|![0s2](https://github.com/iastate/multiagents/assets/95378237/e232a8d8-f59d-487b-9d08-06b785572c0a)|
+![2s2](https://github.com/iastate/multiagents/assets/95378237/58945d4d-5336-4a9f-a994-c0e6c3028743)|
+![1s2](https://github.com/iastate/multiagents/assets/95378237/56a329fb-5cd2-4bfd-9cf6-00f3274dbe3e)
 
 ## Experiment Details
 linear prediction 
@@ -84,6 +83,7 @@ Include any additional details about the experiment, methodology, or results her
 Provide instructions or code snippets for using any associated software or scripts.
 
 ## License
+
 
 Specify the license under which your experiment or code is distributed.
 ion multiagent systems is symmetrically  to oscillation and diverge. 
