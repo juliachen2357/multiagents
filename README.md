@@ -70,8 +70,7 @@ The AP group is slightly better than NP group. If they can both see the future a
 
 |Nonprohet|All-prophet|1Prophet(0nonpro,1pro)|
 |-----------------------------|----------|----------|
-|![0s1](https://github.com/iastate/multiagents/assets/95378237/15fba9ef-4490-4754-b816-ba44b2fc6a27)|![2s2](https://github.com/iastate/multiagents/assets/95378237/d9d6a3c1-413f-42e4-8c63-692b0c7c4a36)|
-|![1s2](https://github.com/iastate/multiagents/assets/95378237/2015ec5b-336d-4b58-a528-251bb293bfb9)|
+|![0s1](https://github.com/iastate/multiagents/assets/95378237/15fba9ef-4490-4754-b816-ba44b2fc6a27)|
 
 
 !-->
@@ -80,7 +79,9 @@ linear prediction
 Include any additional details about the experiment, methodology, or results here.
 
 ## Usage
-![Figure 2023-12-04 060204](https://github.com/iastate/multiagents/assets/95378237/92a4803e-f8de-4539-b4ca-e52255b02f79)
+![Figure 2023-12-04 060204](https://github.com/iastate/multiagents/assets/95378237/92a4803e-f8de-4539-b4ca-e52255b02f79)|![0s2](https://github.com/iastate/multiagents/assets/95378237/8bc65462-aec5-4d6b-bc02-2780b9d57a7a)|![0s1](https://github.com/iastate/multiagents/assets/95378237/2e5be0f4-fdcb-470a-b36b-260133019d02)
+
+
 
 Provide instructions or code snippets for using any associated software or scripts.
 
