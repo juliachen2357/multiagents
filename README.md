@@ -70,8 +70,7 @@ The AP group is slightly better than NP group. If they can both see the future a
 
 |Nonprohet|All-prophet|1Prophet(0nonpro,1pro)|
 |-----------------------------|----------|----------|
-|![0s1](https://github.com/iastate/multiagents/assets/95378237/15fba9ef-4490-4754-b816-ba44b2fc6a27)|
-
+|![0s2](https://github.com/iastate/multiagents/assets/95378237/8bc65462-aec5-4d6b-bc02-2780b9d57a7a)|![2s1](https://github.com/iastate/multiagents/assets/95378237/76f44a2c-bf9e-46bb-a511-08bc2fde0388)|![0s1]|(https://github.com/iastate/multiagents/assets/95378237/2e5be0f4-fdcb-470a-b36b-260133019d02)|
 
 !-->
 ## Experiment Details
@@ -79,7 +78,7 @@ linear prediction
 Include any additional details about the experiment, methodology, or results here.
 
 ## Usage
-![Figure 2023-12-04 060204](https://github.com/iastate/multiagents/assets/95378237/92a4803e-f8de-4539-b4ca-e52255b02f79)|![0s2](https://github.com/iastate/multiagents/assets/95378237/8bc65462-aec5-4d6b-bc02-2780b9d57a7a)|![0s1](https://github.com/iastate/multiagents/assets/95378237/2e5be0f4-fdcb-470a-b36b-260133019d02)
+![Figure 2023-12-04 060204](https://github.com/iastate/multiagents/assets/95378237/92a4803e-f8de-4539-b4ca-e52255b02f79)
 
 
 
