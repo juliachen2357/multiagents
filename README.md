@@ -71,7 +71,7 @@ speed of passage. I think it is similar to a team needs different member MBTI ch
 |Nonprohet|All-prophet|1Prophet(0nonpro,1pro)|
 |![0s2](https://github.com/iastate/multiagents/assets/95378237/e232a8d8-f59d-487b-9d08-06b785572c0a)|
 ![2s2](https://github.com/iastate/multiagents/assets/95378237/58945d4d-5336-4a9f-a994-c0e6c3028743)|
-![1s2](https://github.com/iastate/multiagents/assets/95378237/56a329fb-5cd2-4bfd-9cf6-00f3274dbe3e)
+![1s2](https://github.com/iastate/multiagents/assets/95378237/56a329fb-5cd2-4bfd-9cf6-00f3274dbe3e)|
 
 ## Experiment Details
 linear prediction 
