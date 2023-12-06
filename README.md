@@ -65,7 +65,7 @@ The distinction between all-prophet and non-prophet systems becomes evident as t
 
 The effectiveness of prophet-driven systems is two-fold. Firstly, prophets penalize trajectories that foresee collisions with other agents, prompting a deliberate avoidance of locations already designated by fellow prophets. Secondly, with prophets explicitly laying claim to their future paths, other prophets noticed by the message and therefore gain the confidence to occupy positions in proximity to the claimed paths, especially on the side where prophets have asserted no intention to traverse. This intentional distribution of roles and responsibilities among agents contributes to the overall efficiency and fluidity of the system, showcasing the strategic advantage afforded by all-prophet systems over their non-prophet counterparts.
 
-The AP group is slightly better than NP group. If they can both see the future and be more sly, it is similar to an involution in human society. However, when one agent can see the future, it can always get much better results compared to other cars in the same situation without the foreseeability. 
+The AP group is slightly better than NP group, for overall performance. In AP group, the second actor benefits from the game. It implies that, if they can both see the future and be more sly, it is similar to an involution in human society. However, when one agent can see the future, it can always get much better results compared to other cars in the same situation without the foreseeability. 
 
 
 |Nonprohet|All-prophet|1Prophet(0nonpro,1pro)|
