@@ -70,7 +70,8 @@ The AP group is slightly better than NP group. If they can both see the future a
 
 |Nonprohet|All-prophet|1Prophet(0nonpro,1pro)|
 |-----------------------------|----------|----------|
-![0s1](https://github.com/iastate/multiagents/assets/95378237/04586ef0-bb1d-4373-b1a4-e196884e8e34)|![2s1](https://github.com/iastate/multiagents/assets/95378237/76f44a2c-bf9e-46bb-a511-08bc2fde0388)|![0s1](https://github.com/iastate/multiagents/assets/95378237/2e5be0f4-fdcb-470a-b36b-260133019d02)|
+![0s1](https://github.com/iastate/multiagents/assets/95378237/04586ef0-bb1d-4373-b1a4-e196884e8e34)|![2s1](https://github.com/iastate/multiagents/assets/95378237/76f44a2c-bf9e-46bb-a511-08bc2fde0388)|![1s1](https://github.com/iastate/multiagents/assets/95378237/c074d49b-6658-4f43-9e39-00de1fff4eb8)
+
 
 !-->
 ## Experiment Details
