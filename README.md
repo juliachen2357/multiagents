@@ -70,6 +70,7 @@ We currently only have results for two agents tested on the 500 datasets, but th
 speed of passage. I think it is similar to a team needs different member MBTI characters. A team with mixed characters works better. The Ap and NP groups all oscillated because of symmetry, and the mixed system passed smoothly.This experiment showcased the most dramatic and characteristic display of the agent's behavioral traits. While other experiments follow similar principles
 
 |Nonprohet|All-prophet|1Prophet(0nonpro,1pro)|
+|-----------------------------|----------|----------|
 |![0s2](https://github.com/iastate/multiagents/assets/95378237/e232a8d8-f59d-487b-9d08-06b785572c0a)|![2s2](https://github.com/iastate/multiagents/assets/95378237/58945d4d-5336-4a9f-a994-c0e6c3028743)|![1s2](https://github.com/iastate/multiagents/assets/95378237/56a329fb-5cd2-4bfd-9cf6-00f3274dbe3e)|
 
 ## Experiment Details
