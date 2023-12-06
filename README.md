@@ -65,6 +65,13 @@ The distinction between all-prophet and non-prophet systems becomes evident as t
 
 The effectiveness of prophet-driven systems is two-fold. Firstly, prophets penalize trajectories that foresee collisions with other agents, prompting a deliberate avoidance of locations already designated by fellow prophets. Secondly, with prophets explicitly laying claim to their future paths, other prophets noticed by the message and therefore gain the confidence to occupy positions in proximity to the claimed paths, especially on the side where prophets have asserted no intention to traverse. This intentional distribution of roles and responsibilities among agents contributes to the overall efficiency and fluidity of the system, showcasing the strategic advantage afforded by all-prophet systems over their non-prophet counterparts.
 
+There is also a surprising result for prophet vs non-prophet
+We currently only have results for two agents tested on the 500 datasets, but the trend is very significant and eye-catching. If the agents are all-prophet or non-prophet, the results are basically the same but significantly worse than one-prophet one non-prophet. The mixed system got significantly better results, both in collision rate, smoothness of paths, and speed of passage. I think it is similar to a team needs different member MBTI characters. A team with mixed characters. 
+|Nonprohet|All-prophet|1Prophet(0nonpro,1pro)
+|![140_MPC_2agents0s1](https://github.com/iastate/multiagents/assets/95378237/e1f1f8a2-c7b8-46a4-ae71-dd1094203769)|
+![140_MPC_2agents1s1](https://github.com/iastate/multiagents/assets/95378237/b2df1573-8350-4dba-8eda-900bac5e8189)|
+![140_MPC_2agents2s2](https://github.com/iastate/multiagents/assets/95378237/4f06b7e6-6718-49dc-8b26-c3a5a0578430)
+
 
 ## Experiment Details
 linear prediction 
